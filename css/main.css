@@ -1,0 +1,203 @@
+/**************************Base Styles ************************/
+body {
+  background-color:#1f202b;
+  font-family: 'Merriweather',serif;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1400px;
+}
+
+.half-width {
+  float:left;
+  width:700px;
+}
+
+.third-width {
+  float:left;
+  width: 466px;
+}
+
+header .full-width {
+  height: 75px;
+  text-align: center;
+}
+
+nav ul li {
+  display:inline-block;
+  font-weight: bold;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 45px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+nav ul li a:hover{
+  color: #000;
+  background:#00d9e4;
+  box-shadow: 0 0 5px #00d9e4,
+              0 0 25px #00d9e4,
+              0 0 50px #00d9e4,
+              0 0 100px #00d9e4;
+}
+
+.lets-code {
+  background: url('../img/hero-background.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 725px;
+}
+
+.lets-code h1 {
+  padding: 300px 0 300px 200px;
+  letter-spacing: 10px;
+  font-family: 'Merriweather',sans-serif;
+  font-size: 72px;
+}
+
+.lets-code span {
+  color: #fa0075;
+}
+h3 {
+  color: #fa0075;
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+.project {
+  margin: 25px 0;
+  overflow: auto;
+}
+
+#rogue {
+  height: 350px;
+  width: 1200px;
+  display: inline-flex;
+}
+
+.rogue-image {
+  float:left;
+  height: 348px;
+  width: 550px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b7b7b7;
+  margin-left:100px;
+}
+
+#Jubilee {
+  height: 350px;
+  width: 1200px;
+  display: inline-flex;
+}
+
+.Jubilee-image {
+  height: 348px;
+  width: 550px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b7b7b7;
+  margin-left:100px;
+}
+
+#recipes {
+  height: 350px;
+  width: 1200px;
+  display: inline-flex;
+}
+
+.recipe-image {
+  float: left;
+  height: 348px;
+  width: 550px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b7b7b7;
+  margin-left:100px;
+}
+
+#about {
+  background: url('../img/about-me.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+#about .sub-title {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#about p {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 35px;
+  padding: 0 50px;
+}
+
+.description {
+  margin: 0 100px;
+}
+
+#contact {
+  height: 450px;
+  overflow: auto;
+}
+
+#contact .third-width ul li{
+  display: inline-flex;
+  list-style: none;
+  margin-left: 50px;
+  }
+
+#contact .third-width ul li a:hover{
+  background:#00d9e4;
+  box-shadow: 0 0 5px #00d9e4,
+              0 0 25px #00d9e4,
+              0 0 50px #00d9e4,
+              0 0 100px #00d9e4;
+
+}
+
+  .third-width h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  #contact .email {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    }
+
+  .third-width p {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+.copyright {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat',sans-serif;
+
+}
